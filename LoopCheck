@@ -1,0 +1,11 @@
+-- Ok so goto 'roblox' repo and see how this works
+
+getgenv().Remote = true 
+
+
+
+if getgenv().RemoteKick == true then
+game.Players.LocalPlayer:Kick("Reason")
+end
+
+-- while true do wait() loadstring(:game:HttpGet("RAW"))() end
